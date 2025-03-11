@@ -2,31 +2,31 @@
 	{
 		"name": "Quack",
 		"baseHappiness": 25,
-		"extraHappinessPerLuxury": 2,
-		"researchCostModifier": 0.33,
-		"unitCostModifier": 0.25,
+		"extraHappinessPerLuxury": 5,
+		"researchCostModifier": 0.2,
+		"unitCostModifier": 0.2,
 		"unitSupplyBase": 50,
 		"unitSupplyPerCity": 5,
-		"buildingCostModifier": 0.25,
-		"policyCostModifier": 0.25,
+		"buildingCostModifier": 0.2,
+		"policyCostModifier": 0.2,
 		"unhappinessModifier": 0.2,
-		"barbarianBonus": 3.0,
+		"barbarianBonus": 5.0,
 		"barbarianSpawnDelay": 2,
 		"playerBonusStartingUnits": ["Scout", "Scout"], // Note that the units from Eras.json are added to this pool. This should only contain bonus starting units.
         "aiDifficultyLevel": "Chieftain",
-		"aiCityGrowthModifier": 3.0, // that is to say it'll take them 1.6 times as long to grow the city
-		"aiUnitCostModifier": 3.0,
-		"aiBuildingCostModifier": 3.0,
-		"aiWonderCostModifier": 3.0,
-		"aiBuildingMaintenanceModifier": 1.5,
-		"aiUnitMaintenanceModifier": 1.5,
-		"aiUnitSupplyModifier": -0.2,
+		"aiCityGrowthModifier": 5.0, // that is to say it'll take them 1.6 times as long to grow the city
+		"aiUnitCostModifier": 5.0,
+		"aiBuildingCostModifier": 5.0,
+		"aiWonderCostModifier": 5.0,
+		"aiBuildingMaintenanceModifier": 3.0,
+		"aiUnitMaintenanceModifier": 3.0,
+		"aiUnitSupplyModifier": -0.5,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": [],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 100,
-		"clearBarbarianCampReward": 250
+		"clearBarbarianCampReward": 500
 	}
 ]
